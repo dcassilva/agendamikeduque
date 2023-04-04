@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu site de teste</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      h1 {
+        margin: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      p {
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site de teste</h1>
+    </header>
+    <div class="container">
+      <h2>Sobre o site</h2>
+      <p>Este é um site de teste para experimentar o GitHub Pages.</p>
+      <h2>Contato</h2>
+      <p>Você pode entrar em contato conosco através do e-mail teste@teste.com.</p>
+    </div>
+  </body>
+</html>
