@@ -1,0 +1,81 @@
+:root{
+    --primary: #225C72;
+    --background-div: #F2DFE2;
+    --title: #162C41;
+    --subtitle_cursor: #162C41;
+    --clicks: #2b5072;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary); /* cor de fundo */
+}
+
+div{
+    background-color: var(--background-div);
+
+    width: 60%;
+    max-width: 340px; /*largura (340 + 60 de padding)*/
+    margin-top: 100px; /*provisório*/
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 30px; /*espaçamento interno*/
+    text-align: center;
+    border-radius: 10px;
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #225C72;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+h1{
+    color: var(--title); /*cor da fonte */
+    font-size: 32px;
+}
+
+h2{
+    color: var(--subtitle_cursor);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+/*Links que estão DENTRO de um <li>*/
+li a{
+    color: #FFFFFF;
+    background-color: var(--primary);
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+
+/*ao passar o mouse*/
+li a:hover{
+    background-color: var(--subtitle_cursor);
+    transform: scale(1.1);
+}
+
+/*ao clicar*/
+li a:active{
+    background-color: var(--clicks);
+}
